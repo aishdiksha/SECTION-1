@@ -1,0 +1,9 @@
+h1 {
+  color: darkmagenta;
+  background-color: aquamarine;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 3px solid yellow;
+  margin: 10px;
+  padding: 6%;
+}
