@@ -7,7 +7,14 @@
     <title>Document</title>
 
      <style>
+         body{
+             background-size: cover;
+             background-position: center;
+             background: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg);
+            }
           .mycard{
+              background-color: white;
+              font-size: 200%;
               border: 5px solid red; 
               width:20%;
               margin: 10% auto;
@@ -15,7 +22,8 @@
               box-sizing: border-box;
               border-radius: 5px;
               color: crimson;
-          }
+              box-shadow: 2px 2px 3px 0px black;
+            }
 
           .myinput, .mybtn {
               width: 100%;
@@ -41,12 +49,26 @@
           .myname{
               text-align: center;
           }
+          .icon{
+              width: 2px;
+          }
+          .logo{
+              display: block;
+              width: 70px;
+              margin: auto;
+              margin-top: -60px;
+              border-radius: 200px;
+              box-shadow: 2px 2px 5px 0 burlywood;
+          }
      </style>
 
 </head>
 <body>
     
-    <div  class="mycard">
+    <div  class="mycard" >
+        <img
+        class="logo"
+        src="https://freeiconshop.com/wp-content/uploads/edd/android-flat.png" alt="">
         <p class="myname"> Sign In Here </p>
 
         <input class ="myinput" placeholder="Email" type="email"/>
