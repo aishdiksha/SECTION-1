@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Syne+Mono:regular" rel="stylesheet" />
+
      <style>
          body{
              background-size: cover;
              background-position: center;
-             background: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg);
+            /* background: linear-gradient(
+                 to right,rgb(221, 148, 160),
+                 rgb(241, 241, 14),
+                 rgb(245, 175, 45),
+                 rgb(117, 180, 117)
+                 ); */
+                 height: 90vh;
+                 background-attachment: fixed;
+                 overflow: hidden;
+                 /* background: radial-gradient(yellow,green);  */
+             /* background: palevioletred; */
+             /* background: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg); */
+             background: linear-gradient(to right,#61e6b3a1,#88ceeeb0),
+                 url(https://i.pinimg.com/originals/86/90/14/869014ea87e157354d2326a5961b20e0.png);
+                 
             }
           .mycard{
               background-color: white;
@@ -20,7 +36,7 @@
               margin: 10% auto;
               padding: 2%;
               box-sizing: border-box;
-              border-radius: 5px;
+              border-radius: 5px; 
               color: crimson;
               box-shadow: 2px 2px 3px 0px black;
             }
@@ -48,7 +64,9 @@
 
           .myname{
               text-align: center;
-          }
+              font-size: 1.1em;  
+               }
+
           .icon{
               width: 2px;
           }
@@ -60,6 +78,10 @@
               border-radius: 200px;
               box-shadow: 2px 2px 5px 0 burlywood;
           }
+
+          * {
+                font-size: Syne Mono;
+            }
      </style>
 
 </head>
@@ -69,6 +91,8 @@
         <img
         class="logo"
         src="https://freeiconshop.com/wp-content/uploads/edd/android-flat.png" alt="">
+
+        
         <p class="myname"> Sign In Here </p>
 
         <input class ="myinput" placeholder="Email" type="email"/>
